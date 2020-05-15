@@ -43,7 +43,7 @@ async def sleepybot(time):
         await time.edit("`Che sonno... Torno tra poco...`")
         await sleep(2)
         if BOTLOG:
-            await time.client.send_message(
+            await time.client.send_messag
                 BOTLOG_CHATID,
                 "You put the bot to sleep for " + str(counter) + " seconds",
             )
