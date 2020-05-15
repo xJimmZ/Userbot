@@ -48,7 +48,7 @@ async def sleepybot(time):
                 "You put the bot to sleep for " + str(counter) + " seconds",
             )
         await sleep(counter)
-        await time.edit("`OK, I'm awake now.`")
+        await time.edit("`OK, rieccomi.`")
 
 
 @register(outgoing=True, pattern="^.shutdown$")
